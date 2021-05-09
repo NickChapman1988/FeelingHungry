@@ -50,10 +50,17 @@ This is a recipe search app built with a mobile-first design, but intended to be
     
 ## Scope
 
+The website is based on a MVP (Minimum Viable Product) methodology, for several reasons:
+
+* Keeps the website uncluttered and minimalistic, avoiding information overload for users
+* Makes site easier to navigate, with only key information displayed
+* In line with my current abilities
+* Meets the necessary needs of the user and business owner 
 
 
 ## Structure
- 
+
+The website is split into four sections - a home (landing) page, an about page, a recipe search page and contact page. The fixed navbar allows the user to easily navigate the site and get in touch, and presents a consistent layout. The Home page holds prominent self-explanatory site message and CTA buttons in the centre of the page, with further information accessible on the About page. The Recipes page is clean and simple, giving users a no-fuss search box to utilise and find recipes. The Contact page gives users an easy way to give feedback and contact the site owner.
 
 ## Skeleton
 
@@ -65,7 +72,7 @@ This is a recipe search app built with a mobile-first design, but intended to be
 
 ### Images
 
-
+Each of the images selected are designed to evoke specific reactions and emotions. The landing page buttons are specific to different mealtimes, and are instantly identifiable as the meal they represent. 
 
 ### Colours
 
