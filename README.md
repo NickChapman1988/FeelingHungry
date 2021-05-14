@@ -67,7 +67,7 @@ The website is split into four sections - a home (landing) page, an about page, 
 
 
 ## Surface
-I wanted to present a clean, bright background with imagery that reflects the purpose of the site. 
+I wanted to present a clean, bright background with imagery that reflects the purpose of the site. Use of colourful foods in combination with a bright and clean kitchen background serves to put the user in the mood to cook, both by representing a cooking/creative environment and also presenting appealing food images that capture the users imagination and encourage them to explore new foods and recipes.
 
 
 ### Images
