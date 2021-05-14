@@ -35,7 +35,7 @@ This is a recipe search app built with a mobile-first design, but intended to be
 
 * To encourage users to explore new ingredients, recipes and flavours.
 
-* To encourage users to reduce food waste.
+* To encourage users to reduce food waste by finding ways to use leftover ingredients.
 
     
 **User Stories**
@@ -67,12 +67,12 @@ The website is split into four sections - a home (landing) page, an about page, 
 
 
 ## Surface
-
+I wanted to present a clean, bright background with imagery that reflects the purpose of the site. 
 
 
 ### Images
 
-Each of the images selected are designed to evoke specific reactions and emotions. The landing page buttons are specific to different mealtimes, and are instantly identifiable as the meal they represent. 
+Each of the images selected are designed to evoke specific reactions and emotions. The landing page buttons are specific to different mealtimes, and are instantly identifiable as the meal they represent. The main background image is bright and clean, to represent a "blank canvas" for cooking and evoking the kitchen environment. 
 
 ### Colours
 
