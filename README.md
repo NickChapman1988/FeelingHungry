@@ -64,6 +64,11 @@ The website is split into four sections - a home (landing) page, an about page, 
 
 ## Skeleton
 
+* Home Page: <a href="assets/docs/wireframes/home.pdf" target="_blank">Home</a>
+* About Page: <a href="assets/docs/wireframes/about.pdf" target="_blank">About</a>
+* Search Page: <a href="assets/docs/wireframes/search.pdf" target="_blank">Search</a>
+* Recipes (Search Results) Page: <a href="assets/docs/wireframes/recipes.pdf" target="_blank">Recipes</a>
+* Contact Page: <a href="assets/docs/wireframes/contact.pdf" target="_blank">Contact</a>
 
 
 ## Surface
