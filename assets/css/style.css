@@ -4,6 +4,7 @@
     border: 0;
 }    
 
+/** Main background image 'white book photo' by Becca Tapert on Unsplash**/
 body {
     background: url("../images/body-bg-img.jpg") no-repeat center center fixed;
     background-size: cover;
