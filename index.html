@@ -19,7 +19,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <a class="navbar-brand col-6 col-lg-8" href="index.html">
-                        <h1>Feeling Hungry</h1>
+                        <h1 class="title">Feeling Hungry</h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" 
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -41,27 +41,31 @@
                 </div>
             </nav>
         </header>
-        <main class="container-fluid">
-            <div class="row">
-                <h2 class="col message-box text-center">
+        <main>
+            <div class="row message-box">
+                <h2 class="col site-message">
                     <!--Site message-->
                     What are you hungry for?
                 </h2>
             </div>
             <!--Meal buttons-->
-            <div class="row meal-boxes text-center">
-                <section class="col-lg-4 breakfast-box">
-                    <!--Breakfast "button"-->
-                    Breakfast
-                </section>
-                <section class="col-lg-4 lunch-box">
-                    <!--Lunch "button"-->
-                    Lunch
-                </section>
-                <section class="col-lg-4 dinner-box">
-                    <!--Dinner "button"-->
-                    Dinner
-                </section>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="row meal-boxes text-center">
+                        <section class="col-lg-4 meal-box breakfast-box">
+                            <!--Breakfast "button"-->
+                            Breakfast
+                        </section>
+                        <section class="col-lg-4  meal-box lunch-box">
+                            <!--Lunch "button"-->
+                            Lunch
+                        </section>
+                        <section class="col-lg-4  meal-box dinner-box">
+                            <!--Dinner "button"-->
+                            Dinner
+                        </section>
+                    </div>
+                </div>
             </div>
         </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 

@@ -10,3 +10,23 @@ body {
     background-size: cover;
     background-color: #c0c1be;
 }
+
+header {
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.site-message {
+    padding: 5px 0 0 8px;
+}
+
+.message-box {
+    height: 100px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.meal-box {
+    padding: 70px; 
+    margin-bottom: 10px;
+}
