@@ -5,8 +5,7 @@
 }    
 
 body {
-    background-image: url("../images/body-bg-img.jpg");
+    background: url("../images/body-bg-img.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
     background-color: #c0c1be;
 }
