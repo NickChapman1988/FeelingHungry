@@ -29,4 +29,22 @@ header {
 .meal-box {
     padding: 70px; 
     margin-bottom: 10px;
+    /**Set transparent border to add 2px gap between columns**/
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.breakfast-box {
+    background-image: url("../images/breakfast-bg-img.jpg") ;  
+}
+
+.lunch-box {
+    background-image: url("../images/lunch-bg-img.jpg");
+}
+
+.dinner-box {
+    background-image: url("../images/dinner-bg-img.jpg");
 }
