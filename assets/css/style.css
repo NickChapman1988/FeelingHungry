@@ -36,8 +36,12 @@ header {
     /**Set transparent border to add 2px gap between columns**/
     box-sizing: border-box;
     border: 2px solid transparent;
-    background-clip: padding-box;
-    
+    background-clip: padding-box;  
+}
+
+.meal-button {
+    padding: 0;
+    text-decoration: none;
 }
 
 /**Breakfast image 'berry and nuts' by Dan Counsell on Unsplash**/
