@@ -16,6 +16,8 @@ header {
     margin-bottom: 50px;
 }
 
+/**-------------------------------------------------------------------Home Page----**/
+
 .site-message {
     padding: 5px 0 0 8px;
 }
@@ -29,22 +31,26 @@ header {
 .meal-box {
     padding: 70px; 
     margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     /**Set transparent border to add 2px gap between columns**/
     box-sizing: border-box;
     border: 2px solid transparent;
     background-clip: padding-box;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    
 }
 
+/**Breakfast image 'berry and nuts' by Dan Counsell on Unsplash**/
 .breakfast-box {
     background-image: url("../images/breakfast-bg-img.jpg") ;  
 }
 
+/**Lunch image 'vegetable salad in plate' by Louis Hansel on Unsplash**/
 .lunch-box {
     background-image: url("../images/lunch-bg-img.jpg");
 }
 
+/**Dinner image 'roasted ribs with sliced tomatoes' by Alexandru-Bogdan Ghita on Unsplash**/
 .dinner-box {
     background-image: url("../images/dinner-bg-img.jpg");
 }
