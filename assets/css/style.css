@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,700&display=swap');
+
+
+/**------------------------------------------------------------------General----**/
 * {
     margin: 0;
     padding: 0;
@@ -11,15 +15,27 @@ body {
     background-color: #c0c1be;
 }
 
+
+/**-------------------------------------------------------------------Header----**/
 header {
-    padding: 20px 0;
+    padding: 15px 0 20px 0;
     margin-bottom: 50px;
+}
+
+.title {
+    font-family: 'Courgette', cursive;
+}
+
+#navbarToggler {
+    padding-right: 10px; /**Moves menu items to the left to avoid clashing with background image! **/
+    font-family: 'Montserrat', sans-serif;
 }
 
 /**-------------------------------------------------------------------Home Page----**/
 
 .site-message {
     padding: 5px 0 0 8px;
+    font-family: 'Courgette', cursive;
 }
 
 .message-box {
@@ -37,6 +53,16 @@ header {
     box-sizing: border-box;
     border: 2px solid transparent;
     background-clip: padding-box;  
+}
+
+.meal-box p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+
 }
 
 .meal-button {
