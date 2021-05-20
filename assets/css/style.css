@@ -53,6 +53,7 @@ header {
     box-sizing: border-box;
     border: 2px solid transparent;
     background-clip: padding-box;  
+    position: relative;
 }
 
 .meal-box p {
@@ -60,9 +61,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     font-weight: 300;
-    font-style: italic;
     color: white;
-
 }
 
 .meal-button {
@@ -72,7 +71,7 @@ header {
 
 /**Breakfast image 'berry and nuts' by Dan Counsell on Unsplash**/
 .breakfast-box {
-    background-image: url("../images/breakfast-bg-img.jpg") ;  
+    background-image: url("../images/breakfast-bg-img.jpg"); 
 }
 
 /**Lunch image 'vegetable salad in plate' by Louis Hansel on Unsplash**/
@@ -82,5 +81,15 @@ header {
 
 /**Dinner image 'roasted ribs with sliced tomatoes' by Alexandru-Bogdan Ghita on Unsplash**/
 .dinner-box {
-    background-image: url("../images/dinner-bg-img.jpg");
+    background-image: url("../images/dinner-bg-img.jpg");   
 }
+
+.meal-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
