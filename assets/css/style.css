@@ -34,18 +34,21 @@ header {
 /**-------------------------------------------------------------------Home Page----**/
 
 .site-message {
-    padding: 5px 0 0 8px;
+    padding: 40px 0 20px 8px;
     font-family: 'Courgette', cursive;
 }
 
 .message-box {
-    height: 100px;
     padding: 20px 0;
     text-align: center;
 }
 
+.meal-boxes {
+    padding-top: 20px;
+}
+
 .meal-box {
-    padding: 70px; 
+    padding: 70px 0; 
     margin-bottom: 10px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
