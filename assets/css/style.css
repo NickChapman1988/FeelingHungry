@@ -32,15 +32,14 @@ header {
 }
 
 /**-------------------------------------------------------------------Home Page----**/
+.site-message-box {
+    padding: 20px 0;
+    text-align: center;
+}
 
 .site-message {
     padding: 40px 0 20px 8px;
     font-family: 'Courgette', cursive;
-}
-
-.message-box {
-    padding: 20px 0;
-    text-align: center;
 }
 
 .meal-boxes {
@@ -59,6 +58,7 @@ header {
     position: relative;
 }
 
+/**Semi-transparent image overlay**/
 .meal-box:before {
     content: '';
     position: absolute;
@@ -95,4 +95,31 @@ header {
 /**Dinner image 'roasted ribs with sliced tomatoes' by Alexandru-Bogdan Ghita on Unsplash**/
 .dinner-box {
     background-image: url("../images/dinner-bg-img.jpg");
+}
+
+/**-------------------------------------------------------------------Search/Recipes Page----**/
+
+.seach-message-box {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.search-message {
+    padding: 40px 0 20px 8px;
+    font-family: 'Courgette', cursive;
+}
+
+.ingredients-search {
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-box {
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.search-btn {
+    border: 1px solid #757575;
+    color: #757575;
 }
