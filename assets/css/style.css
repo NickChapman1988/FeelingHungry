@@ -31,6 +31,11 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
+/**Active navigation for nav bar**/
+.active, .nav-link:hover {
+    text-decoration: underline black solid;
+}
+
 /**-------------------------------------------------------------------Home Page----**/
 .site-message-box {
     padding: 20px 0;
