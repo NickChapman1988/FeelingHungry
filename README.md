@@ -107,15 +107,24 @@ Each of the images selected are designed to evoke specific reactions and emotion
 #### Languages:
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/CSS)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 #### Libraries:
-
+* [Bootstrap v5.0](https://getbootstrap.com/) - A mobile-first responsive library used to construct various parts of the project, including extensive use of the grid system for 
+layout, the Nav Menu and Contact Form, as well as Javascript/Popper bundle for the navbar Toggle function.
+* [GoogleFonts](https://fonts.google.com/) - 'Courgette' and 'Montserrat' fonts.
+* [Balsamiq](https://balsamiq.com/) - used for the creation of wireframes.
 
 #### Version Control:
 * [Github](https://github.com/) - Used to store the code and use of GitHub Pages to deploy the website. 
 * [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to GitHub.
 
 #### Other:
+* [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning code.
+* [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any issues/bugs or layout differences.
+* [CSS-Tricks](https://css-tricks.com/) - Used as a general resource for CSS tips and questions.
+* [W3Schools](https://www.w3schools.com/) - Used for examples and tutorials.
+* [Unsplash](https://unsplash.com) - Used to find suitable background and images throughout the project.
 
 
 ---
@@ -128,6 +137,7 @@ Each of the images selected are designed to evoke specific reactions and emotion
 
 
 #### Project Bugs and Solutions
+* Contact form initially didn't work as intended; while testing, no emails were being sent. I investigation using Chrome Dev Tools, and consulting the Code Institute course material again, and discovered I had attached the "onsubmit" property to the Submit button, rather than the form itself. Removing the "onsubmit" property from the button and adding it to the form element instead fixed the problem.
 
 
 
@@ -139,7 +149,10 @@ Each of the images selected are designed to evoke specific reactions and emotion
 
 
 ## Credits
-
+* Main background photo 'white photo book' by [Becca Tapert](https://unsplash.com/@beccatapert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* Breakfast image 'berry and nuts' by [Dan Counsell](https://unsplash.com/@dancounsell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* Lunch image 'vegetable salad in plate' by [Louis Hansel](https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* Dinner image 'roasted ribs with sliced tomatoes' by [Alexandru-Bogdan Ghita](https://unsplash.com/@bogzilla?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 
 ## Acknowledgements
