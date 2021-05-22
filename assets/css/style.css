@@ -25,6 +25,16 @@ body {
     text-align: center;
 }
 
+.text {
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.object-btn {
+    border: 1px solid #757575;
+    color: #757575;
+}
+
 /**-------------------------------------------------------------------Header----**/
 header {
     padding: 15px 0 20px 0;
@@ -104,17 +114,8 @@ header {
 
 /**-------------------------------------------------------------------Search/Recipes Page----**/
 
-.ingredients-search {
-    padding-top: 10px;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .search-box {
     height: 35px;
     margin-bottom: 20px;
 }
 
-.search-btn {
-    border: 1px solid #757575;
-    color: #757575;
-}
