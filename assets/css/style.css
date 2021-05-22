@@ -15,6 +15,15 @@ body {
     background-color: #c0c1be;
 }
 
+.page-heading {
+    font-family: 'Courgette', cursive;  
+    padding: 40px 0 20px 8px;
+}
+
+.message-box {
+    padding: 20px 0;
+    text-align: center;
+}
 
 /**-------------------------------------------------------------------Header----**/
 header {
@@ -37,15 +46,6 @@ header {
 }
 
 /**-------------------------------------------------------------------Home Page----**/
-.site-message-box {
-    padding: 20px 0;
-    text-align: center;
-}
-
-.site-message {
-    padding: 40px 0 20px 8px;
-    font-family: 'Courgette', cursive;
-}
 
 .meal-boxes {
     padding-top: 20px;
@@ -103,16 +103,6 @@ header {
 }
 
 /**-------------------------------------------------------------------Search/Recipes Page----**/
-
-.search-message-box {
-    padding: 20px 0;
-    text-align: center;
-}
-
-.search-message {
-    padding: 40px 0 20px 8px;
-    font-family: 'Courgette', cursive;
-}
 
 .ingredients-search {
     padding-top: 10px;
