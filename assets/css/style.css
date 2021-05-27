@@ -119,3 +119,6 @@ header {
     margin-bottom: 20px;
 }
 
+.recipe-each img {
+    object-fit: contain;
+}

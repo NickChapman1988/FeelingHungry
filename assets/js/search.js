@@ -5,7 +5,7 @@ function getRecipes(recipes) {
     var ingredients = $("#search-box").val();
     var recipeSearch = new XMLHttpRequest();
     
-    recipeSearch.open ("GET", url + "?ingredients=" + ingredients + "&number=2&" + apiKey, true);
+    recipeSearch.open ("GET", url + "?ingredients=" + ingredients + "&number=3&" + apiKey, true);
     recipeSearch.send();
 
     recipeSearch.onreadystatechange = function() {
@@ -23,10 +23,11 @@ function getRecipes(recipes) {
                     
                 newRecipe.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
-                        console.log(JSON.parse(this.responseText));
-                        var recipeInstructions = (JSON.parse(this.responseText)); 
+                        console.log(JSON.parse(this.responseText)); 
+                        
+                        recipe = (JSON.parse(this.responseText));
 
-                        el.innerHTML += `<div class="col col-md-6 col-lg-4"><h2> ${item.title}</h2> <img src=${item.image}> <p>${item.sourceUrl}</p></div>`
+                        el.innerHTML += `<div class="col-lg-4 recipe-each"><a href="${recipe.spoonacularSourceUrl}" target="_blank"><h2> ${recipe.title}</h2> <img src=${recipe.image}></a><p></p></div>`   
                     }
                 }
             })
