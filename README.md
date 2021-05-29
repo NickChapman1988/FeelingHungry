@@ -60,7 +60,7 @@ The website is based on a MVP (Minimum Viable Product) methodology, for several 
 
 ## Structure
 
-The website is split into four sections - a home (landing) page, an about page, a recipe search page and contact page. The fixed navbar allows the user to easily navigate the site and get in touch, and presents a consistent layout. The Home page holds prominent self-explanatory site message and CTA buttons in the centre of the page, with further information accessible on the About page. The Recipes page is clean and simple, giving users a no-fuss search box to utilise and find recipes. The Contact page gives users an easy way to give feedback and contact the site owner.
+The website is split into four sections - a home (landing) page, an about page, a recipe search page and contact page. The fixed navbar allows the user to easily navigate the site and get in touch, and presents a consistent layout, while the toggle feature makes the navbar more accessible for mobile and tablet devices whilst maintaining consistent positioning. The Home page holds prominent self-explanatory site message and CTA buttons in the centre of the page, with further information accessible on the About page. The Recipes page is clean and simple, giving users a no-fuss search box to utilise and find recipes. The Contact page gives users an easy way to give feedback and contact the site owner.
 
 ## Skeleton
 
@@ -81,18 +81,36 @@ Each of the images selected are designed to evoke specific reactions and emotion
 
 ### Colours
 
-
+* As there could be any number of different images and colours presented from the recipe searches, I deliberately chose a 'neutral' palette of colours to achieve good contrast wherever possible, whatever search results (and images) a user is presented with. 
+* Text is presented in solid black #000000 in order to contrast strongly against the background as much as possible, with the exception of the meal buttons on the Home page, which use solid white #ffffff in order to contrast against the specific images used as backgrounds.
+* A mid-grey colour #757575 was used as an alternative to black for certain elements such as the search button and active menu navigation decoration.
 
 ### Typography
 
-
-### Icons
-
+* I used Google Fonts to browse interesting fonts. 'Courgette' was used for headings and sub-headings as it adds a touch of elegance and flourish associated with "traditional" cookbooks (the sort of home-style cookery of the likes of Delia Smith and Mary Berry!). 'Montserrat' was used for the bulk of the page text, as it pairs well with 'Courgette' and presents an easy-to-read larger character font, again often found in cookbooks.
 
 ---
 
 ## Features
+#### Navbar
+* I wanted users to easily be able to navigate the site from every page.
+* The navbar resizes responsively into a toggle button at smaller screen sizes, to enable users to still navigate their way around the site.
+* The navbar uses a static text underline to indicate present site location, and colour change hover effect and text underline on the other links whilst navigating to a new page.
+* The user can click on site title to take the user back to the Home page.
 
+#### Home 
+* Contains prominent and direct site message to immediately catch user's attention and indicate the site's purpose.
+* Prominent and colourful meal 'buttons' are simple to understand and easily direct users how to operate using imagery and text to indicate what each button is for.
+
+#### Recipes
+* Contains prominent direction on how to use the search function, and presents recipe results in a grid layout for easy navigation.
+* Grid layout ensures recipes presentation responds to different screen sizes, enabling all users to browse recipes easily whilst making best use of the full screen.
+
+#### About
+* This page details what the site is about and how to use the recipe search. 
+
+#### Contact
+* Allows users to easily get in touch with site owner.
 
 ### Existing Features
 

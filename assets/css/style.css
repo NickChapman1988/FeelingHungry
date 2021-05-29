@@ -52,7 +52,7 @@ header {
 
 /**Active navigation for nav bar**/
 .active, .nav-link:hover {
-    text-decoration: underline black solid;
+    text-decoration: underline #757575 solid;
 }
 
 /**-------------------------------------------------------------------Home Page----**/
