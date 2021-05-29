@@ -27,7 +27,7 @@ function getRecipes(recipes) {
                         
                         recipe = (JSON.parse(this.responseText));
 
-                        el.innerHTML += `<div class="col-lg-4 recipe-each"><a href="${recipe.spoonacularSourceUrl}" target="_blank"><h2> ${recipe.title}</h2> <img src=${recipe.image}></a><p></p></div>`   
+                        el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-each"><h6> ${recipe.title}</h6> <img src=${recipe.image} class="img-fluid"><a href="${recipe.spoonacularSourceUrl}" target="_blank"><p>Click here for the full recipe!</p></a></div>`   
                     }
                 }
             })

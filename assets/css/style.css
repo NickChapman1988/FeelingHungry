@@ -119,6 +119,19 @@ header {
     margin-bottom: 20px;
 }
 
-.recipe-each img {
-    object-fit: contain;
+.search-button {
+    margin-bottom: 50px;
+}
+
+#recipe-box {
+    padding: 0;
+}
+
+.recipe-each {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.recipe-each a {
+    color: black;
 }
