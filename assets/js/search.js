@@ -1,5 +1,5 @@
-var url = "https://api.spoonacular.com/recipes/findByIngredients"
-var apiKey = "apiKey=4046887ae70f4afda1862925dff6697c"
+var url = "https://api.spoonacular.com/recipes/findByIngredients";
+var apiKey = "apiKey=4046887ae70f4afda1862925dff6697c";
 
 function getRecipes(recipes) {
     var ingredients = $("#search-box").val();
@@ -17,7 +17,7 @@ function getRecipes(recipes) {
             el.innerHTML = ""; 
 
             recipes.forEach(function(item) {
-                newRecipe = new XMLHttpRequest();
+               var newRecipe = new XMLHttpRequest();
                 newRecipe.open ("GET", "https://api.spoonacular.com/recipes/" + item.id + "/information?includeNutrition=false&" + apiKey, true);
                 newRecipe.send();
                     
@@ -25,12 +25,12 @@ function getRecipes(recipes) {
                     if (this.readyState == 4 && this.status == 200) {
                         console.log(JSON.parse(this.responseText)); 
                         
-                        recipe = (JSON.parse(this.responseText));
+                       var recipe = (JSON.parse(this.responseText));
 
-                        el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-each"><h6> ${recipe.title}</h6> <img src=${recipe.image} class="img-fluid"><a href="${recipe.spoonacularSourceUrl}" target="_blank"><p>Click here for the full recipe!</p></a></div>`   
+                        el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-each"><h6> ${recipe.title}</h6> <img src=${recipe.image} class="img-fluid"><a href="${recipe.spoonacularSourceUrl}" target="_blank"><p>Click here for the full recipe!</p></a></div>`;   
                     }
-                }
-            })
+                };
+            });
         }
-    }
+    };
 }
