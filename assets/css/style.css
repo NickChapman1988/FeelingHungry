@@ -127,11 +127,12 @@ header {
     padding: 0;
 }
 
-.recipe-each {
-    font-family: 'Montserrat', sans-serif;
-    color: black;
+.recipe-each h4 {
+    font-family: 'Courgette', cursive;    
 }
 
-.recipe-each a {
+.recipe-each p {
     color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
