@@ -57,7 +57,6 @@ The website is based on a MVP (Minimum Viable Product) methodology, for several 
 * In line with my current abilities
 * Meets the necessary needs of the user and business owner 
 
-
 ## Structure
 
 The website is split into four sections - a home (landing) page, an about page, a recipe search page and contact page. The fixed navbar allows the user to easily navigate the site and get in touch, and presents a consistent layout, while the toggle feature makes the navbar more accessible for mobile and tablet devices whilst maintaining consistent positioning. The Home page holds prominent self-explanatory site message and CTA buttons in the centre of the page, with further information accessible on the About page. The Recipes page is clean and simple, giving users a no-fuss search box to utilise and find recipes. The Contact page gives users an easy way to give feedback and contact the site owner.
@@ -70,10 +69,8 @@ The website is split into four sections - a home (landing) page, an about page, 
 * Recipes (Search Results) Page: <a href="assets/docs/wireframes/recipes.pdf" target="_blank">Recipes</a>
 * Contact Page: <a href="assets/docs/wireframes/contact.pdf" target="_blank">Contact</a>
 
-
 ## Surface
 I wanted to present a clean, bright background with imagery that reflects the purpose of the site. Use of colourful foods in combination with a bright and clean kitchen background serves to put the user in the mood to cook, both by representing a cooking/creative environment and also presenting appealing food images that capture the users imagination and encourage them to explore new foods and recipes.
-
 
 ### Images
 
