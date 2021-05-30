@@ -27,7 +27,7 @@ function getRecipes(recipes) {
                         
                        var recipe = (JSON.parse(this.responseText));
 
-                        el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-each"><h4> ${recipe.title}</h4> <img src=${recipe.image} class="img-fluid"><a href="${recipe.spoonacularSourceUrl}" target="_blank"><p>Click here for the full recipe!</p></a></div>`;   
+                        el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-each"><a href="${recipe.spoonacularSourceUrl}" target="_blank"><h4> ${recipe.title}</h4> <img src=${recipe.image} class="img-fluid"><p>Click for the full recipe!</p></a></div>`;   
                     }
                 };
             });
