@@ -25,7 +25,7 @@ function getRecipes(recipes) {
                     if (this.readyState == 4 && this.status == 200) {
                         console.log(JSON.parse(this.responseText)); 
                         
-                       var recipe = (JSON.parse(this.responseText));
+                        var recipe = (JSON.parse(this.responseText));
 
                         el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-each"><a href="${recipe.spoonacularSourceUrl}" target="_blank"><h4> ${recipe.title}</h4> <img src=${recipe.image} class="img-fluid"><p>Click for the full recipe!</p></a></div>`;   
                     }

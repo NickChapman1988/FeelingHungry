@@ -9,6 +9,8 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("Success", response);
+
+            document.getElementById("message-success").innerHTML = `<p class="">Thanks for your message!</p>`
         }, 
         function(error) {
             console.log("Failed", error);

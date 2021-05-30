@@ -50,13 +50,15 @@
         </header>
         <main>
             <div class="row">
-                <div class="contact-box message-box col-10 offset-1 col-lg-8 offset-lg-2">
+                <div class="contact-box message-box col-10 offset-1 col-lg-6 offset-lg-3">
                     <h2 class="page-heading">Contact Us</h2>
+                    <p class="text text-center">If you have something you'd like to ask or tell us, we would welcome your feedback! Please fill out the contact form below to reach us!</p>
                     <form class="contact-form text" onsubmit="return sendMail(this);">
                         <input class="form-control" type="text" name="name" id="fullname" placeholder="Name" required>
                         <input class="form-control" type="email" name="emailaddress" id="emailaddress" placeholder="Email" required>
                         <textarea rows="5" class="form-control" name="contactmessage" id="contactmessage" placeholder="What would you like to say?" required></textarea>
-                        <button type="submit" class="btn object-btn center-block">Get In Touch!</button>
+                        <button type="submit" class="btn object-btn center-block"><strong>Get In Touch!</strong></button>
+                        <div id="message-success"></div>
                     </form>
                 </div>
             </div>

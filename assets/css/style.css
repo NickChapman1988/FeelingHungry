@@ -31,6 +31,8 @@ body {
 }
 
 .object-btn {
+    margin-top: 20px;
+    margin-bottom: 50px;
     border: 1px solid #757575;
     color: #757575;
 }
@@ -43,6 +45,14 @@ header {
 
 .title {
     font-family: 'Courgette', cursive;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.nav-link {
+    text-align: center;
 }
 
 #navbarToggler {
@@ -116,11 +126,6 @@ header {
 
 .search-box {
     height: 35px;
-    margin-bottom: 20px;
-}
-
-.search-button {
-    margin-bottom: 50px;
 }
 
 #recipe-box {
@@ -144,4 +149,11 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-decoration: underline #757575 solid;
+}
+
+/**-------------------------------------------------------------------Contact Page----**/
+
+#message-success {
+    padding-top: 40px;
+    font-size: 24px;
 }
