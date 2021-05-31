@@ -10,7 +10,7 @@ function sendMail(contactForm) {
         function(response) {
             console.log("Success", response);
 
-            document.getElementById("message-success").innerHTML = `<p class="">Thanks for your message!</p>`
+            document.getElementById("message-success").innerHTML = `<p class="col-2 center-block message-success">Thanks for your message!</p>`
         }, 
         function(error) {
             console.log("Failed", error);
