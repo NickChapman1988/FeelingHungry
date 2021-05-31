@@ -126,7 +126,7 @@ header {
 /**-------------------------------------------------------------------Search/Recipes Page----**/
 
 .search-box {
-    height: 60 px;
+    height: 60px;
 }
 
 #recipe-box {
@@ -174,4 +174,8 @@ header {
 .message-success {
     font-size: 24px;
     background: rgba(255, 255, 255, 0.3);
+}
+
+.contact-form-field {
+    margin-bottom: 10px;
 }
