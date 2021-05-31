@@ -33,9 +33,9 @@ body {
 .object-btn {
     margin-top: 20px;
     margin-bottom: 50px;
-    border: 1px solid #757575;
-    color: #757575;
-    background: rgba(255, 255, 255, 0.3);
+    height: 60px;
+    color: white;
+    background: #da6542;
 }
 
 /**-------------------------------------------------------------------Header----**/
@@ -50,10 +50,6 @@ header {
 
 .navbar-brand {
     margin-right: 0;
-}
-
-.nav-link {
-    text-align: center;
 }
 
 #navbarToggler {
@@ -130,7 +126,7 @@ header {
 /**-------------------------------------------------------------------Search/Recipes Page----**/
 
 .search-box {
-    height: 35px;
+    height: 60 px;
 }
 
 #recipe-box {
