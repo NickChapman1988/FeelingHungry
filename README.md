@@ -101,13 +101,15 @@ Each of the images selected are designed to evoke specific reactions and emotion
 
 #### Recipes
 * Contains prominent direction on how to use the search function, and presents recipe results in a grid layout for easy navigation.
-* Grid layout ensures recipes presentation responds to different screen sizes, enabling all users to browse recipes easily whilst making best use of the full screen.
+* Grid layout ensures recipe presentation responds to different screen sizes, enabling all users to browse recipes easily whilst making best use of the full screen.
+* Hover animation to allow users to focus on individual recipes.
 
 #### About
 * This page details what the site is about and how to use the recipe search. 
 
 #### Contact
 * Allows users to easily get in touch with site owner.
+* Makes use of the EmailJS API to allow user messages to be emailed directly to site owner.
 
 ### Existing Features
 
@@ -130,6 +132,11 @@ layout, the Nav Menu and Contact Form, as well as Javascript/Popper bundle for t
 * [GoogleFonts](https://fonts.google.com/) - 'Courgette' and 'Montserrat' fonts.
 * [Balsamiq](https://balsamiq.com/) - used for the creation of wireframes.
 
+#### APIs:
+* [EmailJS](https://www.emailjs.com/) - Allows the Contact Form to send emails directly to the site owner.
+* [Spoonacular](https://spoonacular.com/food-api) - Recipe and Nutrition API with over 5000 recipes, nutrition information for thousands of products and ingredients, as well as detailed 
+recipe instructions and images used as part of this site.
+
 #### Version Control:
 * [Github](https://github.com/) - Used to store the code and use of GitHub Pages to deploy the website. 
 * [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to GitHub.
@@ -140,6 +147,7 @@ layout, the Nav Menu and Contact Form, as well as Javascript/Popper bundle for t
 * [CSS-Tricks](https://css-tricks.com/) - Used as a general resource for CSS tips and questions.
 * [W3Schools](https://www.w3schools.com/) - Used for examples and tutorials.
 * [Unsplash](https://unsplash.com) - Used to find suitable background and images throughout the project.
+* [Hover.css](https://ianlunn.github.io/Hover/) - Used for simple animation on recipe boxes.
 
 
 ---
