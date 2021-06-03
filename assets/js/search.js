@@ -15,8 +15,8 @@ function fillRandomRecipes() {
             random = random.recipes;
 
             random.forEach(function(item){
-            document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-each hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank">
-            <h4>${item.title}</h4><img src=${item.image} class="img-fluid"><p>Click for the full recipe!</p></a></div>`;              
+            document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+            <img src=${item.image} class="img-fluid card-image-top"><a href="${item.spoonacularSourceUrl}" target="_blank" class="btn recipe-btn">View Recipe</a></div></div>`;              
             });
         };
     };
@@ -49,8 +49,8 @@ function getRecipes(recipes) {
                         
                         var recipe = (JSON.parse(this.responseText));
 
-                        el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-each hvr-grow"><a href="${recipe.spoonacularSourceUrl}" target="_blank"><h4> ${recipe.title}</h4>
-                        <img src=${recipe.image} class="img-fluid"><p>Click for the full recipe!</p></a></div>`;   
+                        el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><div class="card bg-light"><h4 class="card-title"> ${recipe.title}</h4>
+                        <img src=${recipe.image} class="img-fluid"><a href="${recipe.spoonacularSourceUrl}" target="_blank" class="btn recipe-btn">View Recipe</a></div></div>`;   
                     }
                 };
             });

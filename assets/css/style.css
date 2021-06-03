@@ -61,9 +61,30 @@ header {
     margin-right: 0.75rem;
 }
 
+.nav-btn {
+    height: 30px;
+    padding: 8px;
+    background: #da6542;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding-top: 20px;
+}
+
+/*Keeps nav buttons the same size */
+.about-btn {
+    margin-right: 1px;
+    margin-left: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /**Active navigation for nav bar**/
-.active, .nav-link:hover {
-    text-decoration: underline #757575 solid;
+.active, .nav-btn:hover {
+    color: black;
+    text-decoration: underline black solid;
 }
 
 /**-------------------------------------------------------------------Home Page----**/
@@ -133,25 +154,22 @@ header {
     padding: 0;
 }
 
-.recipe-each h4 {
+.recipe-card {
+    margin-bottom: 20px;
+}
+
+.recipe-card h4 {
     background: rgba(255, 255, 255, 0.3);
     font-family: 'Courgette', cursive;
     color: black; 
     margin-bottom: 0;
 }
 
-.recipe-each a {
-    text-decoration: none;
-}
-
-.recipe-each p {
-    background: rgba(255, 255, 255, 0.3);
-    color: black;
+.recipe-btn {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    text-decoration: underline #757575 solid;
+    background-color: #da6542;
+    color: white;
 }
-
 
 /* Grow from Hover.CSS by Ian Lunn https://ianlunn.github.io/Hover/ */
 .hvr-grow {
