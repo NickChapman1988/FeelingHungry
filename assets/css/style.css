@@ -8,7 +8,7 @@
     border: 0;
 }    
 
-/** Main background image 'white book photo' by Becca Tapert on Unsplash**/
+/** Main background image 'kitchen knife and green leaf vegetable on tabletop' by Lukas Blazek on Unsplash**/
 body {
     background: url("../images/body-bg-img.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -68,6 +68,7 @@ header {
     color: rgba(255,255,255,0.55)
 }
 
+/*Nav toggler icon*/
 .fa-bars {
     color: white;
 }
@@ -158,6 +159,10 @@ header {
 }
 
 /**-------------------------------------------------------------------Search/Recipes Page----**/
+
+#recipe-box-container {
+    padding-bottom: 60px;
+}
 
 .search-box {
     height: 60px;
