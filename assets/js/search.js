@@ -37,6 +37,12 @@ function getRecipes(recipes) {
             var el = document.getElementById("recipe-box");    
             el.innerHTML = ""; 
 
+            if (recipes.length === 0){
+                console.log("No results found");
+                el.innerHTML += `<div class="no-results-message col-6 offset-3 center-block"><h4 class="card-title">Sorry, it doesn't look like we've found any recipes for 
+                that ingredient. Why not try searching for something different, like pasta or tomatoes?</h4></div>`;
+            }         
+
             recipes.forEach(function(item) {
                var newRecipe = new XMLHttpRequest();
                 newRecipe.open ("GET", "https://api.spoonacular.com/recipes/" + item.id + "/information?includeNutrition=false&" + apiKey, true);

@@ -28,6 +28,7 @@ body {
 .text {
     padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .object-btn {
@@ -132,7 +133,7 @@ header {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
-    font-weight: 300;
+    font-weight: 700;
     color: white;
     position: relative;
     z-index: 1;
