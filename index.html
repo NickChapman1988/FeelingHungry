@@ -14,6 +14,7 @@
 
         <link href="assets/css/style.css" rel="stylesheet">
 
+        <script type="text/javascript" src="assets/js/search.js"></script>
         <title>Feeling Hungry</title>
     </head>
     <body>
@@ -57,19 +58,19 @@
                 <div class="col-10 offset-1 col-sm-6 offset-sm-3 col-lg-8 offset-lg-2">
                     <div class="row meal-boxes text-center">
                         <!--Breakfast "button"-->
-                        <a class="meal-button col-lg-4" href="search.html">
+                        <a class="meal-button col-lg-4" href="search.html" onclick="getMealType('breakfast')">
                             <section class="meal-box breakfast-box">
                                 <p><strong>Breakfast</strong></p>
                             </section>
                         </a>
                         <!--Lunch "button"-->
-                        <a class="meal-button col-lg-4" href="search.html">
+                        <a class="meal-button col-lg-4" href="search.html" onclick="getMealType('salad&soup&snack&side dish')">
                             <section class="meal-box lunch-box">
                                 <p><strong>Lunch</strong></p>
                             </section>
                         </a>
                         <!--Dinner "button"-->
-                        <a class="meal-button col-lg-4" href="search.html">
+                        <a class="meal-button col-lg-4" href="search.html" onclick="getMealType('main course')"> 
                             <section class="meal-box dinner-box">
                                 <p><strong>Dinner</strong></p>
                             </section>
