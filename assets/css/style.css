@@ -46,6 +46,11 @@ header {
 
 .title {
     font-family: 'Courgette', cursive;
+    color: black;
+}
+
+.navbar {
+    padding-right: 0;
 }
 
 .navbar-brand {
@@ -58,7 +63,13 @@ header {
 }
 
 .navbar-toggler {
-    margin-right: 0.75rem;
+    background-color: #da6542;
+    border: 1px solid #da6542;
+    color: rgba(255,255,255,0.55)
+}
+
+.fa-bars {
+    color: white;
 }
 
 .nav-btn {
