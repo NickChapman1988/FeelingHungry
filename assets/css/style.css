@@ -161,10 +161,29 @@ header {
 
 /**-------------------------------------------------------------------Search/Recipes Page----**/
 
-#recipe-box-container {
-    padding-bottom: 60px;
+/*Clear function always displayed - adapted from https://stackoverflow.com/a/33683886 by Josh Crozier*/
+.clearable-input {
+    position: relative;
 }
 
+.clearable-input > [data-clear-input] {
+    position: absolute;
+    top: 33%;
+    left: 84%;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 0 0.2em;
+    line-height: 1em;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .clearable-input > input::-ms-clear {
+    display: none;
+  }
+
+  #recipe-box-container {
+    padding-bottom: 60px;
+}
 .search-box {
     height: 60px;
 }

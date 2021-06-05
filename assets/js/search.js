@@ -1,3 +1,11 @@
+//Clear function for Search bar - adapted from https://stackoverflow.com/a/33683886 by Josh Crozier//
+
+function clearSearch(){
+    document.getElementById("search-box").value = "";
+}
+
+//Populate Search page with grid of random recipes//
+
 var url = "https://api.spoonacular.com/recipes/findByIngredients";
 var apiKey = "apiKey=4046887ae70f4afda1862925dff6697c";
 
@@ -21,6 +29,8 @@ function fillRandomRecipes() {
         }
     };
 }
+
+//Recipe Search function//
 
 function getRecipes(recipes) {
     var ingredients = $("#search-box").val();
