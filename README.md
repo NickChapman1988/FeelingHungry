@@ -131,6 +131,7 @@ Each of the images selected are designed to evoke specific reactions and emotion
 layout, the Nav Menu and Contact Form, as well as Javascript/Popper bundle for the navbar Toggle function.
 * [GoogleFonts](https://fonts.google.com/) - 'Courgette' and 'Montserrat' fonts.
 * [Balsamiq](https://balsamiq.com/) - used for the creation of wireframes.
+* [FontAwesome](https://fontawesome.com/) - Used for the nav bar toggler icon.
 
 #### APIs:
 * [EmailJS](https://www.emailjs.com/) - Allows the Contact Form to send emails directly to the site owner.
@@ -148,6 +149,7 @@ recipe instructions and images used as part of this site.
 * [W3Schools](https://www.w3schools.com/) - Used for examples and tutorials.
 * [Unsplash](https://unsplash.com) - Used to find suitable background and images throughout the project.
 * [Hover.css](https://ianlunn.github.io/Hover/) - Used for simple animation on recipe boxes.
+* [Stack Overflow](https://stackoverflow.com/) - Used for general troubleshooting and examples.
 
 
 ---
@@ -172,10 +174,13 @@ recipe instructions and images used as part of this site.
 
 
 ## Credits
-* Main background photo 'white photo book' by [Becca Tapert](https://unsplash.com/@beccatapert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* Main background photo 'kitchen knife and green leaf vegetable on tabletop' by [Lukas Blazek](https://unsplash.com/@goumbik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  (https://unsplash.com/@beccatapert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 * Breakfast image 'berry and nuts' by [Dan Counsell](https://unsplash.com/@dancounsell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 * Lunch image 'vegetable salad in plate' by [Louis Hansel](https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 * Dinner image 'roasted ribs with sliced tomatoes' by [Alexandru-Bogdan Ghita](https://unsplash.com/@bogzilla?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* Seach bar clear icon adapted from [this answer](https://stackoverflow.com/a/33683886) by Josh Crozier on Stack Overflow.
+* Semi-transparent layer over meal images from [this answer](https://stackoverflow.com/a/27015815) by 'd4ncer' on Stack Overflow. 
 
 
 ## Acknowledgements

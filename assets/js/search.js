@@ -1,4 +1,4 @@
-//Clear function for Search bar - adapted from https://stackoverflow.com/a/33683886 by Josh Crozier//
+//Clear function for Search bar 
 
 function clearSearch(){
     document.getElementById("search-box").value = "";
