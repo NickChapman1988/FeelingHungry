@@ -8,12 +8,17 @@ function clearSearch(){
 var url = "https://api.spoonacular.com/recipes/complexSearch";
 var apiKey = "apiKey=4046887ae70f4afda1862925dff6697c";
 
-//Populate Search page with grid of random recipes//
+//Get Meal Type variable//
+
+var mealType = sessionStorage.getItem("mealType");
+console.log(mealType);
+
+//Populate Search page with grid of random recipes for selected meal type//
 function fillRandomRecipes() {
     var randomRecipeSearch = new XMLHttpRequest();
     var urlRandom = "https://api.spoonacular.com/recipes/random?number=9&";
 
-    randomRecipeSearch.open ("GET", urlRandom + apiKey, true);
+    randomRecipeSearch.open ("GET", urlRandom + "tags=" + mealType + "&" + apiKey, true);
     randomRecipeSearch.send();
 
     randomRecipeSearch.onreadystatechange = function() {
@@ -31,11 +36,6 @@ function fillRandomRecipes() {
     };
 }
 
-//Get Meal Type variable//
-
-var mealType = sessionStorage.getItem("mealType");
-console.log(mealType);
-
 //Recipe Search function//
 function getRecipes() {
     var ingredients = $("#search-box").val();
@@ -44,7 +44,7 @@ function getRecipes() {
     //Piece together search from basic URL, plus meal type and ingredient variables from user selection//
     recipeSearch.open ("GET", url + "?type=" + mealType + "&includeIngredients=" + ingredients + "&addRecipeInformation=true" + "&number=9&" + apiKey, true);
     recipeSearch.send();
-
+    
     recipeSearch.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             console.log(JSON.parse(this.responseText));
