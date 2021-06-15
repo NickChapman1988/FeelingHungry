@@ -2,17 +2,17 @@
 
 
 /**------------------------------------------------------------------General----**/
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 
-/*Remove unnecessary x-scroll */
-body {
-    max-width: 100%;
+    /*Remove unnecessary x-scroll */
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
     overflow-x: hidden;
-}    
+}
 
 /** Main background image 'kitchen knife and green leaf vegetable on tabletop' by Lukas Blazek on Unsplash**/
 body {
