@@ -156,6 +156,7 @@ layout, the Nav Menu and Contact Form, as well as Javascript/Popper bundle for t
 * [Unsplash](https://unsplash.com) - Used to find suitable background and images throughout the project.
 * [Hover.css](https://ianlunn.github.io/Hover/) - Used for simple animation on recipe boxes.
 * [Stack Overflow](https://stackoverflow.com/) - Used for general troubleshooting and examples.
+* [favicon.cc](https://www.favicon.cc/) - Used to create site favicon.
 
 
 ---
@@ -211,6 +212,8 @@ Javascript - [JSHint](https://jshint.com/) - Javascript Validation
 
 #### Project Bugs and Solutions
 * Contact form initially didn't work as intended; while testing, no emails were being sent. I investigation using Chrome Dev Tools, and consulting the Code Institute course material again, and discovered I had attached the "onsubmit" property to the Submit button, rather than the form itself. Removing the "onsubmit" property from the button and adding it to the form element instead fixed the problem.
+* Found while testing on mobile devices that there was a massive empty space on the right-hand side of the screen when the site was zoomed out. Added additional CSS styling to restrict width and height to 100%, set max-width to 100% and set any x-overflow to hidden. This seemed to fix the issue.
+
 
 
 
