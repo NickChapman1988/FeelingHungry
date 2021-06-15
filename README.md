@@ -191,7 +191,7 @@ browser tab is opened when clicked.
 ![Image](assets/images/home-mobile-friendly.jpg)
 * 2. **Recipes:**
 
-![Image]
+![Image](assets/images/search-mobile-friendly.jpg)
 * 3. **About:**
 
 ![Image](assets/images/about-mobile-friendly.jpg)
