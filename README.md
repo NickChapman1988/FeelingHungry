@@ -70,7 +70,7 @@ The website is split into four sections - a home (landing) page, an about page, 
 * Contact Page: <a href="assets/docs/wireframes/contact.pdf" target="_blank">Contact</a>
 
 ## Surface
-I wanted to present a clean, bright background with imagery that reflects the purpose of the site. Use of colourful foods in combination with a bright and clean kitchen background serves to put the user in the mood to cook, both by representing a cooking/creative environment and also presenting appealing food images that capture the users imagination and encourage them to explore new foods and recipes.
+I wanted to present a clean, bright background with imagery that reflects the purpose of the site. Use of colourful foods in combination with a bright and clean background serves to put the user in the mood to cook, both by representing a cooking/creative environment and also presenting appealing food images that capture the users imagination and encourage them to explore new foods and recipes.
 
 ### Images
 
@@ -80,7 +80,7 @@ Each of the images selected are designed to evoke specific reactions and emotion
 
 * As there could be any number of different images and colours presented from the recipe searches, I deliberately chose a 'neutral' palette of colours to achieve good contrast wherever possible, whatever search results (and images) a user is presented with. 
 * Text is presented in solid black #000000 in order to contrast strongly against the background as much as possible, with the exception of the meal buttons on the Home page, which use solid white #ffffff in order to contrast against the specific images used as backgrounds.
-* A mid-grey colour #757575 was used as an alternative to black for certain elements such as the search button and active menu navigation decoration.
+* A bright orange colour #da6542 was used as a spot colour to help buttons and recipe cards stand out, allowing users to easily locate and use these features.
 
 ### Typography
 
@@ -92,7 +92,7 @@ Each of the images selected are designed to evoke specific reactions and emotion
 #### Navbar
 * I wanted users to easily be able to navigate the site from every page.
 * The navbar resizes responsively into a toggle button at smaller screen sizes, to enable users to still navigate their way around the site.
-* The navbar uses a static text underline to indicate present site location, and colour change hover effect and text underline on the other links whilst navigating to a new page.
+* The navbar uses a static text underline and colour change to indicate present site location, and colour change hover effect and text underline on the other links whilst navigating to a new page.
 * The user can click on site title to take the user back to the Home page.
 
 #### Home 
@@ -137,8 +137,7 @@ layout, the Nav Menu and Contact Form, as well as Javascript/Popper bundle for t
 
 #### APIs:
 * [EmailJS](https://www.emailjs.com/) - Allows the Contact Form to send emails directly to the site owner.
-* [Spoonacular](https://spoonacular.com/food-api) - Recipe and Nutrition API with over 5000 recipes, nutrition information for thousands of products and ingredients, as well as detailed 
-recipe instructions and images used as part of this site.
+* [Spoonacular](https://spoonacular.com/food-api) - Recipe and Nutrition API with over 5000 recipes, nutrition information for thousands of products and ingredients, as well as detailed recipe instructions and images used as part of this site.
 
 #### Version Control:
 * [Github](https://github.com/) - Used to store the code and use of GitHub Pages to deploy the website. 
