@@ -1,5 +1,5 @@
 # Feeling Hungry – Milestone Project 2
-### View the live project [here.]()
+### View the live project [here.](https://nickchapman1988.github.io/FeelingHungry/)
 
 The aim of the project was to create a mobile-first user-friendly recipe search app for users to find meal ideas. The user can search based on ingredients they have available and the app presents a range of recipes using those ingredients, allowing users to quickly and easily find meal ideas using things they already have in their kitchens.
 
@@ -129,9 +129,11 @@ Each of the images selected are designed to evoke specific reactions and emotion
 #### Libraries:
 * [Bootstrap v5.0](https://getbootstrap.com/) - A mobile-first responsive library used to construct various parts of the project, including extensive use of the grid system for 
 layout, the Nav Menu and Contact Form, as well as Javascript/Popper bundle for the navbar Toggle function.
+* [Popper](https://popper.js.org/) - Included as a requirement of Bootstrap. Used in menu toggler.
 * [GoogleFonts](https://fonts.google.com/) - 'Courgette' and 'Montserrat' fonts.
 * [Balsamiq](https://balsamiq.com/) - used for the creation of wireframes.
 * [FontAwesome](https://fontawesome.com/) - Used for the nav bar toggler icon.
+* [JQuery](https://jquery.com) - The project uses JQuery to simplify DOM manipulation.
 
 #### APIs:
 * [EmailJS](https://www.emailjs.com/) - Allows the Contact Form to send emails directly to the site owner.
@@ -171,7 +173,14 @@ recipe instructions and images used as part of this site.
 
 
 ## Deployment
-
+* Go to [GitHub](https://github.com/) and sign in, or sign up for an account.
+* Once a Github account was created, I opened a new repository by clicking the green button "new". To create this project, I used the Code Institute's student 
+[template](https://github.com/Code-Institute-Org/gitpod-full-template).
+- Click on the green "gitpod" button to open [Gitpod](https://gitpod.io/), a cloud-based version control software or IDE, which was used to write all code for this project.
+- It was then pushed or saved in the terminal to Github where it is stored in a [repository](https://github.com/NickChapman1988/SleepingDragonTerrain)
+- Under "Settings", scroll down to Github Pages and select "Master Branch" in the Source section, to where the page was automated.
+- Once this was selected, the project was pushed to Github pages and the URL is then displayed
+- To access the code, it can be run locally by either selecting "clone" which provides a URL to use on a local machine or "download" to download the zip file on to a local machine.
 
 ## Credits
 * Main background photo 'kitchen knife and green leaf vegetable on tabletop' by [Lukas Blazek](https://unsplash.com/@goumbik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
