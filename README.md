@@ -1,3 +1,5 @@
+![Image](assets/images/home-screenshot.jpg)
+
 # Feeling Hungry – Milestone Project 2
 ### View the live project [here.](https://nickchapman1988.github.io/FeelingHungry/)
 
@@ -24,6 +26,7 @@ Everyone enjoys good food, but we don't always have the time or energy to be cre
 ## Description
 This is a recipe search app built with a mobile-first design, but intended to be accessible on all devices. My aim with the project was to present a colourful, warm and evocative appearance that felt comforting and relaxed while putting users in the mood to cook, and try new things!
 
+![Image](assets/images/amiresponsive.jpg)
 ---
 
 ## UX
@@ -115,6 +118,8 @@ Each of the images selected are designed to evoke specific reactions and emotion
 
 
 ### Features Left to Implement
+* Adding the ability to navigate through multiple pages. Currently limited due to 'points' quota allowed with Spoonacular API.
+* Additional filters to allow more specific recipe seaches e.g. by cuisine type, by flavour ('sweet', 'savoury', 'spicy' etc.)
 
 
 ---
@@ -156,11 +161,51 @@ layout, the Nav Menu and Contact Form, as well as Javascript/Popper bundle for t
 ---
 
 ## Testing
+* Forms testing: to ensure the website was functioning as it should, I tested each of the forms on different devices and browsers. This was done by clicking the 'Submit' 
+button on the Contact Form without any text in inputs to make sure it resulted with the desired response of 'Please fill out this field'.
+* Links (Internal & External): Each of the links when clicked have been checked so that the user is directed to the desired location. For a better UX experience, I made sure 
+each link has either a colour change or colour-changing icon when hovered (with exception of the logo when visible) and included a target="_blank" attribute so that a new 
+browser tab is opened when clicked.
 
+* Testing across various devices: I used BrowserStack for this, in addition to feedback from my friends and peers. The devices on which the website was tested are as follows:
+
+    * Android Mobile:
+        * **Samsung:** Galaxy S8, Galaxy A42
+        
+    * Android Tablet:
+        * **Samsung:** Tab A6, Tab S4
+    
+    * IOS Mobile:
+        * **iPhone:** 5, 11 Pro, 12
+    
+    * IOS Tablet:
+        * **iPad:** Pro 12.9 2020
+
+
+* Tested on Chrome, Firefox, Safari and Microsoft Edge
+
+* Ensured the website was also responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly).
+- 1. **Home:**
+
+![Image]
+* 2. **Recipes:**
+
+![Image]
+* 3. **About:**
+
+![Image]
+* 4. **Contact:**
+
+![Image]
 
 #### Validation
+HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
 
+CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+
+
+Javascript - [JSHint](https://jshint.com/) - Javascript Validation
 
 #### Project Bugs and Solutions
 * Contact form initially didn't work as intended; while testing, no emails were being sent. I investigation using Chrome Dev Tools, and consulting the Code Institute course material again, and discovered I had attached the "onsubmit" property to the Submit button, rather than the form itself. Removing the "onsubmit" property from the button and adding it to the form element instead fixed the problem.

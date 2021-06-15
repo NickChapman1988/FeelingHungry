@@ -16,6 +16,9 @@
 
         <title>Feeling Hungry</title>
 
+        <!--jQuery CDN script-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
         <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
         <script>
             (function(){
@@ -57,7 +60,7 @@
                 <div class="contact-box message-box col-10 offset-1 col-lg-6 offset-lg-3">
                     <h2 class="page-heading">Contact Us</h2>
                     <p class="text text-center">If you have something you'd like to ask or tell us, we would welcome your feedback! Please fill out the contact form below to reach us!</p>
-                    <form class="contact-form text" onsubmit="return sendMail(this);">
+                    <form class="contact-form text" name="contact-form" onsubmit="return sendMail(this);">
                         <input class="form-control contact-form-field" type="text" name="name" id="fullname" placeholder="Name" required>
                         <input class="form-control contact-form-field" type="email" name="emailaddress" id="emailaddress" placeholder="Email" required>
                         <textarea rows="5" class="form-control contact-form-field" name="contactmessage" id="contactmessage" placeholder="What would you like to say?" required></textarea>
