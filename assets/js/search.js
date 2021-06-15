@@ -42,8 +42,7 @@ function getRecipes() {
     var recipeSearch = new XMLHttpRequest();
     
     //Piece together search from basic URL, plus meal type and ingredient variables from user selection//
-    recipeSearch.open ("GET", url + "?type=" + mealType + "&includeIngredients=" + ingredients + "&addRecipeInformation=true" + "&number=9&" 
-    + apiKey, true);
+    recipeSearch.open ("GET", url + "?type=" + mealType + "&includeIngredients=" + ingredients + "&addRecipeInformation=true" + "&number=9&" + apiKey, true);
     recipeSearch.send();
 
     recipeSearch.onreadystatechange = function() {
@@ -68,6 +67,6 @@ function getRecipes() {
                 document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
                 <img src=${item.image} class="img-fluid card-image-top"><a href="${item.spoonacularSourceUrl}" target="_blank" class="btn recipe-btn">View Recipe</a></div></div>`;              
             });
-        };
-    }
+        }
+    };
 }
