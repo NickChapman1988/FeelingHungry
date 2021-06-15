@@ -233,13 +233,14 @@ Javascript - [JSHint](https://jshint.com/) - Javascript Validation
 
 ## Credits
 * Main background photo 'kitchen knife and green leaf vegetable on tabletop' by [Lukas Blazek](https://unsplash.com/@goumbik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  (https://unsplash.com/@beccatapert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 * Breakfast image 'berry and nuts' by [Dan Counsell](https://unsplash.com/@dancounsell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 * Lunch image 'vegetable salad in plate' by [Louis Hansel](https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 * Dinner image 'roasted ribs with sliced tomatoes' by [Alexandru-Bogdan Ghita](https://unsplash.com/@bogzilla?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 * Seach bar clear icon adapted from [this answer](https://stackoverflow.com/a/33683886) by Josh Crozier on Stack Overflow.
 * Semi-transparent layer over meal images from [this answer](https://stackoverflow.com/a/27015815) by 'd4ncer' on Stack Overflow. 
 
-
 ## Acknowledgements
-
+* My Mentor, **Nishant Kumar**, for his guidance throughout this project.
+* The Slack Community for their help and support.
+* My family and friends for their feedback and help with testing.
+* My wife and son for their endless patience, support and lending of devices for testing!
