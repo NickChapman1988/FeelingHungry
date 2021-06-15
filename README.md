@@ -187,25 +187,27 @@ browser tab is opened when clicked.
 * Ensured the website was also responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly).
 - 1. **Home:**
 
-![Image]
+![Image](assets/images/home-mobile-friendly.jpg)
 * 2. **Recipes:**
 
 ![Image]
 * 3. **About:**
 
-![Image]
+![Image](assets/images/about-mobile-friendly.jpg)
 * 4. **Contact:**
 
-![Image]
+![Image](assets/images/contact-mobile-friendly.jpg)
 
 #### Validation
 HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+![Image](assets/images/css-validation.jpg)
 
 
 Javascript - [JSHint](https://jshint.com/) - Javascript Validation
+![Image](assets/images/js-validation.jpg)
 
 #### Project Bugs and Solutions
 * Contact form initially didn't work as intended; while testing, no emails were being sent. I investigation using Chrome Dev Tools, and consulting the Code Institute course material again, and discovered I had attached the "onsubmit" property to the Submit button, rather than the form itself. Removing the "onsubmit" property from the button and adding it to the form element instead fixed the problem.
