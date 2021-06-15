@@ -6,6 +6,12 @@
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+/*Remove unnecessary x-scroll */
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }    
 
 /** Main background image 'kitchen knife and green leaf vegetable on tabletop' by Lukas Blazek on Unsplash**/
