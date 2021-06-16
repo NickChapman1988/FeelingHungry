@@ -11,6 +11,10 @@ function sendMail(contactForm) {
             console.log("Success", response);
 
             document.getElementById("message-success").innerHTML = `<p class="col-6 offset-3 center-block message-success">Thanks for your message!</p>`
+
+            document.getElementById("fullname").value = "";
+            document.getElementById("emailaddress").value = "";
+            document.getElementById("contactmessage").value = "";
         }, 
         function(error) {
             console.log("Failed", error);
