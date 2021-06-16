@@ -191,8 +191,13 @@ header {
 #recipe-box-container {
     padding-bottom: 60px;
 }
+
 .search-box {
     height: 60px;
+}
+
+.search-btn {
+    font-size: 22px;
 }
 
 #recipe-box {
