@@ -36,11 +36,11 @@ function fillRandomRecipes() {
             //Creates recipe card for random recipes//
             random.forEach(function(item){
                 if (item.image === undefined) {
-                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
-                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"><a href="${item.spoonacularSourceUrl}" target="_blank" class="btn recipe-btn">View Recipe</a></div></div>`;
+                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"> >button class="btn recipe-btn">View Recipe</button></div></a></div>`;
                 } else {
-                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
-                    <img src=${item.image} class="img-fluid card-image-top"><a href="${item.spoonacularSourceUrl}" target="_blank" class="btn recipe-btn">View Recipe</a></div></div>`; 
+                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    <img src=${item.image} class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`; 
                 }             
             });
         }
@@ -76,11 +76,11 @@ function getRecipes() {
             //Creates recipes cards for search results//
             recipes.forEach(function(item){              
                 if (item.image === undefined) {
-                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
-                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"><a href="${item.spoonacularSourceUrl}" target="_blank" class="btn recipe-btn">View Recipe</a></div></div>`;
+                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"> >button class="btn recipe-btn">View Recipe</button></div></a></div>`;
                 } else {
-                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
-                <img src=${item.image} class="img-fluid card-image-top"><a href="${item.spoonacularSourceUrl}" target="_blank" class="btn recipe-btn">View Recipe</a></div></div>`;
+                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    <img src=${item.image} class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`; 
                 }
             });
         }

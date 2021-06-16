@@ -208,11 +208,17 @@ header {
     margin-bottom: 20px;
 }
 
+.recipe-card a {
+    text-decoration: none;
+}
+
 .recipe-card h4 {
     background: rgba(255, 255, 255, 0.3);
     font-family: 'Courgette', cursive;
     color: black; 
     margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .recipe-btn {
