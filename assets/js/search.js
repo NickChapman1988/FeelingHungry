@@ -18,8 +18,14 @@ function fillRandomRecipes() {
     var randomRecipeSearch = new XMLHttpRequest();
     var urlRandom = "https://api.spoonacular.com/recipes/random?number=9&";
 
-    randomRecipeSearch.open ("GET", urlRandom + "tags=" + mealType + "&" + apiKey, true);
-    randomRecipeSearch.send();
+//Generate random recipes without meal type if user navigates straight to Recipes page (without picking meal type)//    
+    if (mealType === null) {
+        randomRecipeSearch.open ("GET", urlRandom + apiKey, true);
+        randomRecipeSearch.send();
+    } else {
+        randomRecipeSearch.open ("GET", urlRandom + "tags=" + mealType + "&" + apiKey, true);
+        randomRecipeSearch.send();
+    }
 
     randomRecipeSearch.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
