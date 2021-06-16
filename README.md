@@ -213,8 +213,7 @@ Javascript - [JSHint](https://jshint.com/) - Javascript Validation
 #### Project Bugs and Solutions
 * Contact form initially didn't work as intended; while testing, no emails were being sent. I investigation using Chrome Dev Tools, and consulting the Code Institute course material again, and discovered I had attached the "onsubmit" property to the Submit button, rather than the form itself. Removing the "onsubmit" property from the button and adding it to the form element instead fixed the problem.
 * Found while testing on mobile devices that there was a massive empty space on the right-hand side of the screen when the site was zoomed out. Added additional CSS styling to restrict width and height to 100%, set max-width to 100% and set any x-overflow to hidden. This seemed to fix the issue.
-
-
+* Several recipes from Spoonacular API had bad image URLs, resulting in the URL returning as 'undefined' and resulting in a 404 error. To fix, I created a custom image and set the recipe search Javascript function to display this custom image whenever the API image returned as 'undefined'. Although it doesn't help the user visualise the recipe, it gives an explanation for why the image isn't displayed and prompts the user to visit the full recipe (and view the proper image) rather than resulting in an ugly 404/Failed to Load visual on the page.
 
 
 #### Testing User Stories
