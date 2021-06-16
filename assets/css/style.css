@@ -182,12 +182,13 @@ header {
     line-height: 1em;
     cursor: pointer;
     z-index: 1;
-  }
-  .clearable-input > input::-ms-clear {
-    display: none;
-  }
+}
 
-  #recipe-box-container {
+.clearable-input > input::-ms-clear {
+    display: none;
+}
+
+#recipe-box-container {
     padding-bottom: 60px;
 }
 .search-box {
@@ -239,6 +240,7 @@ header {
     -o-transform: scale(1.1);
     transform: scale(1.1);
   }
+
 /**-------------------------------------------------------------------Contact Page----**/
 
 .message-success {

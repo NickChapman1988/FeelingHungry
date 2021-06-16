@@ -2,4 +2,5 @@
 function getMealType(type) {
     var mealType = type;
     sessionStorage.setItem("mealType", mealType);
+    console.log(mealType);
 }
