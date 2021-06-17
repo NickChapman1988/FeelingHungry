@@ -113,6 +113,10 @@ header {
 footer {
     background-color:rgba(255, 255, 255, 0.3);
     margin-top: 25px;
+    height: 80px;
+    position: relative;
+    bottom: 0;
+    left: 0;
 }
 
 /*Media query to force footer to bottom of page on large screens*/
