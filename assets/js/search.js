@@ -19,6 +19,7 @@ function clearSearch(){
     var el = document.getElementById("recipe-box");    
     el.innerHTML = "";
 
+    //Refreshes random recipes when search box is cleared//
     refreshRecipes.open ("GET", urlRefresh + apiKey, true);
     refreshRecipes.send();
 
