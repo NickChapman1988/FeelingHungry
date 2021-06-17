@@ -72,6 +72,8 @@ The website is split into four sections - a home (landing) page, an about page, 
 * Recipes (Search Results) Page: <a href="assets/docs/wireframes/recipes.pdf" target="_blank">Recipes</a>
 * Contact Page: <a href="assets/docs/wireframes/contact.pdf" target="_blank">Contact</a>
 
+The final version of the site added a footer for social media links and slightly changed the design of the recipe card presentation to more of a grid layout, but otherwise closely followed the initial design detailed in the wireframes.
+
 ## Surface
 I wanted to present a clean, bright background with imagery that reflects the purpose of the site. Use of colourful foods in combination with a bright and clean background serves to put the user in the mood to cook, both by representing a cooking/creative environment and also presenting appealing food images that capture the users imagination and encourage them to explore new foods and recipes.
 
@@ -148,7 +150,7 @@ My website was designed to present key information quickly and easily, and make 
 layout, the Nav Menu and Contact Form, as well as Javascript/Popper bundle for the navbar Toggle function.
 * [Popper](https://popper.js.org/) - Included as a requirement of Bootstrap. Used in menu toggler.
 * [GoogleFonts](https://fonts.google.com/) - 'Courgette' and 'Montserrat' fonts.
-* [Balsamiq](https://balsamiq.com/) - used for the creation of wireframes.
+* [Balsamiq](https://balsamiq.com/) - Used for the creation of wireframes.
 * [FontAwesome](https://fontawesome.com/) - Used for the nav bar toggler icon.
 * [JQuery](https://jquery.com) - The project uses JQuery to simplify DOM manipulation.
 
