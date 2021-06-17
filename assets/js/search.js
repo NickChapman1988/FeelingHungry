@@ -56,10 +56,6 @@ function fillRandomRecipes() {
         randomRecipeSearch.send();
     }
 
-    //Clears recipe box div when user initiates new search//
-    var el = document.getElementById("recipe-box");    
-    el.innerHTML = "";
-
     randomRecipeSearch.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             console.log(JSON.parse(this.responseText)); 
@@ -69,10 +65,10 @@ function fillRandomRecipes() {
             //Creates recipe card for random recipes//
             random.forEach(function(item){
                 if (item.image === undefined) {
-                    el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
                     <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`;
                 } else {
-                    el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
                     <img src=${item.image} class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`; 
                 }             
             });
