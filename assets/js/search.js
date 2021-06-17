@@ -1,9 +1,3 @@
-//Clear function for Search bar 
-
-function clearSearch(){
-    document.getElementById("search-box").value = "";
-}
-
 //Variable for search URL and Spoonacular API Key//
 var url = "https://api.spoonacular.com/recipes/complexSearch";
 var apiKey = "apiKey=4046887ae70f4afda1862925dff6697c";
@@ -12,6 +6,40 @@ var apiKey = "apiKey=4046887ae70f4afda1862925dff6697c";
 
 var mealType = sessionStorage.getItem("mealType");
 console.log(mealType);
+
+//Clear function for Search bar 
+
+function clearSearch(){
+    document.getElementById("search-box").value = "";
+
+    var refreshRecipes = new XMLHttpRequest();
+    var urlRefresh = "https://api.spoonacular.com/recipes/random?number=9&";
+
+    //Clears recipe box div when user initiates new search//
+    var el = document.getElementById("recipe-box");    
+    el.innerHTML = "";
+
+    refreshRecipes.open ("GET", urlRefresh + apiKey, true);
+    refreshRecipes.send();
+
+    refreshRecipes.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            console.log(JSON.parse(this.responseText)); 
+            var refresh = (JSON.parse(this.responseText));
+            refresh = refresh.recipes;
+
+            refresh.forEach(function(item){
+                if (item.image === undefined) {
+                    el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"> >button class="btn recipe-btn">View Recipe</button></div></a></div>`;
+                } else {
+                    el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    <img src=${item.image} class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`; 
+                }             
+            });
+        }
+    };
+}
 
 //Populate Search page with grid of random recipes for selected meal type//
 function fillRandomRecipes() {
@@ -27,6 +55,10 @@ function fillRandomRecipes() {
         randomRecipeSearch.send();
     }
 
+    //Clears recipe box div when user initiates new search//
+    var el = document.getElementById("recipe-box");    
+    el.innerHTML = "";
+
     randomRecipeSearch.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             console.log(JSON.parse(this.responseText)); 
@@ -36,10 +68,10 @@ function fillRandomRecipes() {
             //Creates recipe card for random recipes//
             random.forEach(function(item){
                 if (item.image === undefined) {
-                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
                     <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"> >button class="btn recipe-btn">View Recipe</button></div></a></div>`;
                 } else {
-                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
                     <img src=${item.image} class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`; 
                 }             
             });
@@ -76,10 +108,10 @@ function getRecipes() {
             //Creates recipes cards for search results//
             recipes.forEach(function(item){              
                 if (item.image === undefined) {
-                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
                     <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"> >button class="btn recipe-btn">View Recipe</button></div></a></div>`;
                 } else {
-                    document.getElementById("recipe-box").innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
+                    el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
                     <img src=${item.image} class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`; 
                 }
             });
