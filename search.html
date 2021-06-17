@@ -58,8 +58,8 @@
                 </div>
                 <form class="ingredients-search text col-10 offset-1 col-m-6 offset-m-3 col-lg-8 offset-lg-2">
                     <div class="form-group row clearable-input">
-                        <input class="search-box col-10 offset-1 rounded" type="text" id="search-box" name="search-box" placeholder="Enter ingredients here..." aria-label="Search">
-                        <span data-clear-input onclick="clearSearch()">&times;</span>
+                        <input class="search-box col-10 offset-1 rounded" type="text" id="search-box" name="search-box" aria-label="Search">
+                        <span id="clearbutton" data-clear-input onclick="clearSearch()">&times;</span>
                     </div>
                     <div class="form-group row">
                         <button type="button" class="col-8 offset-2 col-lg-6 offset-lg-3 btn object-btn search-button" onclick="getRecipes()"><strong>Search</strong></button>
@@ -111,6 +111,7 @@
                 </div>
             </div>
         </footer>
+        <script src="assets/js/hideClearButton.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     </body>

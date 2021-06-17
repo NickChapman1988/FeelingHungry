@@ -247,6 +247,7 @@ Javascript - [JSHint](https://jshint.com/) - Javascript Validation
 
 ## Acknowledgements
 * My Mentor, **Nishant Kumar**, for his guidance throughout this project.
+* John, from Tutor Support, for his valuable assistance.
 * The Slack Community for their help and support.
 * My family and friends for their feedback and help with testing.
 * My wife and son for their endless patience, support and lending of devices for testing!
