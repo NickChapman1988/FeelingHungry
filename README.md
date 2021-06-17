@@ -89,6 +89,9 @@ Each of the images selected are designed to evoke specific reactions and emotion
 
 * I used Google Fonts to browse interesting fonts. 'Courgette' was used for headings and sub-headings as it adds a touch of elegance and flourish associated with "traditional" cookbooks (the sort of home-style cookery of the likes of Delia Smith and Mary Berry!). 'Montserrat' was used for the bulk of the page text, as it pairs well with 'Courgette' and presents an easy-to-read larger character font, again often found in cookbooks.
 
+### Icons
+
+* Social media icons in the footer, as well as the toggle menu bars, are all from Font Awesome.
 ---
 
 ## Features
@@ -114,11 +117,20 @@ Each of the images selected are designed to evoke specific reactions and emotion
 * Allows users to easily get in touch with site owner.
 * Makes use of the EmailJS API to allow user messages to be emailed directly to site owner.
 
-### Existing Features
+#### Footer
+* Provide links to social media with handy icons for easy navigation
 
+### Existing Features
+My website was designed to present key information quickly and easily, and make the booking process as simple as possible to avoid info overload for users. I designed it so that it was clear and consistent across all pages and is accessible on all devices.
+
+* Home page: Fixed navbar allowing the user to easily navigate through the site. Prominent site message and meal selection buttons for quick engagement.
+* Recipes: Presentation of a selection of random recipes on page load means users immediately have access to meal ideas even before searching. Recipes cards are easily digestible and link to full recipes in new tabs so user doesn't navigate away from search. Random recipes refresh when search is cleared, meaning user is never "stuck" with old/already-browsed recipes.
+* About page: Quick and simple instructions for site use, and explanation of site purpose. Display images for decoration.
+* Contact page: Allows easy user feedback. Form requires at least name and email address to be complete, to prevent submission of empty forms
+* Footer: Spacious footer with clearly visible social media icons, with colour change and grow hover effects to really make them stand out. Ample space for more features to be added.
 
 ### Features Left to Implement
-* Adding the ability to navigate through multiple pages. Currently limited due to 'points' quota allowed with Spoonacular API.
+* Adding the ability to navigate through multiple pages. Currently limited due to 'points' quota allowed with Spoonacular API, which means number of recipes that can be displayed in 24 hour period is restricted (and would result in user very quickly using up searches, and being presented with no results once points allowance is reached).
 * Additional filters to allow more specific recipe seaches e.g. by cuisine type, by flavour ('sweet', 'savoury', 'spicy' etc.)
 
 
@@ -219,6 +231,17 @@ Javascript - [JSHint](https://jshint.com/) - Javascript Validation
 
 #### Testing User Stories
 
+"Sometimes after a long day I have no idea what to cook for dinner, and we end up throwing something unhealthy in the oven or getting a takeaway. Being able to cook something using ingredients I've already got without having to think about it would be great!"
+> * Recipe search allows for selection of different meal times (Breakfast, Lunch and Dinner) as well as the ability to search for one or multiple ingredients, meaning that users can easily find recipes that are suitable regardless of the meal type and that use appropriate ingredients (i.e. those the user already has available).
+
+"I'd like to try new things and cook different recipes that I've maybe not tried before, but wouldn't know where to start. Having a list of recipes where I can use the ingredients I've already got would make life so much easier."
+> * A selection of random recipes are presented as soon as a user navigates to the page and are refreshed with new random recipes after each search, so there will always be new recipes presented to inspire users.
+
+"We always have a full fridge and always end up cooking the same things each week. It would be nice to throw a bit of variety in there, and cook something different without having to go out and buy anything we don't normally buy."
+> * Random recipes are presented to users, and ingredients search allows users to find recipes that user ingredients already available.
+
+"I hate wasting food, but sometimes it's really difficult thinking of how to use leftover food up. I'd rather find a way of using things up than end up throwing them away, and it might introduce us to some new meals as well."
+> * Recipe search provides recipes for known ingredients, and link to full recipe ingredients and amounts so that users know how much of each ingredient the recipe needs
 
 
 ## Deployment
