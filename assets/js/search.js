@@ -5,7 +5,6 @@ var apiKey = "apiKey=4046887ae70f4afda1862925dff6697c";
 //Get Meal Type variable from Home page//
 
 var mealType = sessionStorage.getItem("mealType");
-console.log(mealType);
 
 //Clear function for Search bar 
 
@@ -24,8 +23,7 @@ function clearSearch(){
     refreshRecipes.send();
 
     refreshRecipes.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            console.log(JSON.parse(this.responseText)); 
+        if (this.readyState == 4 && this.status == 200) { 
             var refresh = (JSON.parse(this.responseText));
             refresh = refresh.recipes;
 
@@ -57,8 +55,7 @@ function fillRandomRecipes() {
     }
 
     randomRecipeSearch.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            console.log(JSON.parse(this.responseText)); 
+        if (this.readyState == 4 && this.status == 200) { 
             var random = (JSON.parse(this.responseText));
             random = random.recipes;
 
@@ -87,7 +84,6 @@ function getRecipes() {
     
     recipeSearch.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            console.log(JSON.parse(this.responseText));
             var recipes = (JSON.parse(this.responseText)); 
             recipes = recipes.results;
             
@@ -97,7 +93,6 @@ function getRecipes() {
                 
                 //No results message to display to user//
                 if (recipes.length === 0){
-                    console.log("No results found");
                     el.innerHTML += `<div class="no-results-message col-6 offset-3 center-block"><h4 class="card-title">Sorry, it doesn't look like we've found any recipes 
                     for that ingredient. Why not try searching for something different, like butter, milk, or tomatoes?</h4></div>`;
                 }   
