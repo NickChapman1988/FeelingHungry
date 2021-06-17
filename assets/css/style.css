@@ -41,7 +41,7 @@ body {
     margin-top: 20px;
     margin-bottom: 50px;
     height: 60px;
-    color: white;
+    color: color;
     background: #da6542;
 }
 
@@ -83,9 +83,10 @@ header {
 .nav-btn {
     height: 30px;
     padding: 8px;
-    background: #da6542;
-    color: white;
+    color: black;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .nav-item {
@@ -104,6 +105,7 @@ header {
 .active, .nav-btn:hover {
     color: black;
     text-decoration: underline black solid;
+    background: #da6542;
 }
 
 /**-------------------------------------------------------------------Home Page----**/
