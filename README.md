@@ -236,6 +236,10 @@ Javascript - [JSHint](https://jshint.com/) - Javascript Validation
 * Lunch image 'vegetable salad in plate' by [Louis Hansel](https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 * Dinner image 'roasted ribs with sliced tomatoes' by [Alexandru-Bogdan Ghita](https://unsplash.com/@bogzilla?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 * Undefined search images use 'pile of French macaroons' by [Keila Hötzel](https://unsplash.com/@keilahoetzel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
+* 'About' page gallery images:
+    * 'white book photo' by [Becca Tapert](https://unsplash.com/@beccatapert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+    * 'berries on heart waffles' by [Yoori Koo](https://unsplash.com/@yoori_koo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+    * 'loaded sweet potato fries bowl' by [Ella Olsson](https://unsplash.com/@ellaolsson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
 * Seach bar clear icon adapted from [this answer](https://stackoverflow.com/a/33683886) by Josh Crozier on Stack Overflow.
 * Semi-transparent layer over meal images from [this answer](https://stackoverflow.com/a/27015815) by 'd4ncer' on Stack Overflow. 
 * Passing Javascript variables to another page from [this tutorial](https://lage.us/Javascript-Pass-Variables-to-Another-Page.html) on Lage.us
