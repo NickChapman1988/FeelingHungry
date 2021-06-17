@@ -213,6 +213,7 @@ browser tab is opened when clicked.
 
 #### Validation
 HTML - [W3C](https://validator.w3.org/) - Markup Validation
+![Image](assets/images/html-validation.jpg)
 
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
