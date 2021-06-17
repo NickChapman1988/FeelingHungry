@@ -32,7 +32,7 @@ function clearSearch(){
             refresh.forEach(function(item){
                 if (item.image === undefined) {
                     el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
-                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"> >button class="btn recipe-btn">View Recipe</button></div></a></div>`;
+                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`;
                 } else {
                     el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
                     <img src=${item.image} class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`; 
@@ -70,7 +70,7 @@ function fillRandomRecipes() {
             random.forEach(function(item){
                 if (item.image === undefined) {
                     el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
-                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"> >button class="btn recipe-btn">View Recipe</button></div></a></div>`;
+                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`;
                 } else {
                     el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
                     <img src=${item.image} class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`; 
@@ -110,7 +110,7 @@ function getRecipes() {
             recipes.forEach(function(item){              
                 if (item.image === undefined) {
                     el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
-                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"> >button class="btn recipe-btn">View Recipe</button></div></a></div>`;
+                    <img src="assets/images/undefined-image.jpg" class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`;
                 } else {
                     el.innerHTML += `<div class="col-md-6 col-lg-4 recipe-card hvr-grow"><a href="${item.spoonacularSourceUrl}" target="_blank"><div class="card bg-light"><h4 class="card-title">${item.title}</h4>
                     <img src=${item.image} class="img-fluid card-image-top"><button class="btn recipe-btn">View Recipe</button></div></a></div>`; 
